@@ -21,9 +21,9 @@
       ];
     };
 
-    homeConfigurations.amper = home-manager.lib.homeManagerConfiguration {
+    homeConfigurations.eugene = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
-      modules = [ ./home/home.nix ];
+      modules = [ ./home/configuration.nix ];
     };
   };
 }
