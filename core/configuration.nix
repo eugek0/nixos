@@ -97,6 +97,10 @@
     rofi
     kitty
     home-manager
+    yarn
+    nodejs_22
+    gnumake
+    gcc
     lazygit
     hiddify-app
     tmux
