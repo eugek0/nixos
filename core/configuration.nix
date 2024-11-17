@@ -102,6 +102,11 @@
     tmux
   ];
 
+  fonts.packages = with pkgs; [
+    jetbrains-mono
+    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+  ];
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
